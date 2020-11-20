@@ -1,0 +1,68 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #ede8f1;
+}
+
+nav {
+    background-color: rgba(57, 57, 87, 0.788);
+    font-family: 'Glass Antiqua', cursive;
+}
+
+nav a .logo {
+    color: #181728;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-left: 0.7rem;
+    padding-top: 0.9rem;
+    position: absolute;
+}
+
+.form-control {
+    background-color: #ECEFF1;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+form button {
+    background-color: #ECEFF1;
+    font-size: 1.5rem;
+    color: #495057;
+    border: none;
+    border-radius: 0.2rem;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0.6rem;
+    font-weight: 800;
+}
+
+form button:hover {
+    background-color: #e6dcf2;
+    cursor: pointer;
+}
+
+thead {
+    background-color: #192b40e6;
+    color: floralwhite;
+}
+
+table tbody tr:hover {
+    background-color: rgb(231, 230, 228);
+    cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #a1adb8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #C2CDD2;
+}
