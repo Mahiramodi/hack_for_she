@@ -17,6 +17,11 @@ nav {
     font-family: 'Glass Antiqua', cursive;
 }
 
+.title {
+    position: relative;
+    margin-left: 43%;
+}
+
 nav a .logo {
     color: #181728;
     font-weight: 700;
@@ -26,32 +31,13 @@ nav a .logo {
     position: absolute;
 }
 
-.form-control {
-    background-color: #ECEFF1;
-    font-weight: 600;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-}
-
-form button {
-    background-color: #ECEFF1;
-    font-size: 1.5rem;
-    color: #495057;
-    border: none;
-    border-radius: 0.2rem;
-    letter-spacing: 0.1rem;
-    padding: 0.4rem 0.6rem;
-    font-weight: 800;
-}
-
-form button:hover {
-    background-color: #e6dcf2;
-    cursor: pointer;
-}
-
 thead {
     background-color: #192b40e6;
     color: floralwhite;
+}
+
+.table thead th {
+    font-weight: 500;
 }
 
 table tbody tr:hover {
@@ -65,4 +51,64 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: #C2CDD2;
+}
+
+
+/* -------------job section  -------------------*/
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgba(57, 57, 87, 0.883);
+}
+
+form {
+    border: 2px solid #a1adb8;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(190, 178, 202);
+}
+
+.form-group {
+    padding: 0.5rem 2.5rem;
+}
+
+label {
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    font-family: cursive;
+}
+
+.form-control {
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width:322px) {
+    .title {
+        margin-left: 38%;
+    }
+    nav {
+        width: 114vw;
+    }
+}
+
+@media (max-width:376px) {
+    .title {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width:426px) {
+    .title {
+        margin-left: 38%;
+    }
 }
