@@ -56,6 +56,18 @@ tbody tr:nth-child(even) {
 
 /* -------------job section  -------------------*/
 
+.btn {
+    background-color: rgba(57, 57, 87, 0.788);
+    color: floralwhite;
+    font-size: 1.5rem;
+    margin: 1rem 1.8rem;
+}
+
+.btn:hover {
+    background-color: rgba(57, 57, 87, 0.534);
+    color: floralwhite;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 1rem;
