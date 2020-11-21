@@ -1,3 +1,14 @@
+var firebaseConfig = {
+  apiKey: "AIzaSyCYfY8l1jDnthlARwfzs5S_NLAKgKRgvuA",
+  authDomain: "raise-emergencies.firebaseapp.com",
+  databaseURL: "https://raise-emergencies.firebaseio.com",
+  projectId: "raise-emergencies",
+  storageBucket: "raise-emergencies.appspot.com",
+  messagingSenderId: "564078089879",
+  appId: "1:564078089879:web:266a0e4633408fced7bbd2"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 var i=1,j=0,k=0;
 var address = [];
 var lat=0,lng=0;
